@@ -17,12 +17,12 @@ module AimStatusHelper2
     end
   end
 
-  def aim_status_icon(aim_name)
-    image_tag "status_" + aim_status(aim_name) + ".png"
+  def aim_status_icon(aim_name, options = {})
+    image_tag "status_" + aim_status(aim_name) + ".png", options
   end
 
-  def aim_to(object, aim_name)
-    link_to object, "aim:goim?screenname=#{aim_name}"
+  def aim_to(object, aim_name, options = {})
+    link_to object, "aim:goim?screenname=#{aim_name}", options
   end
 
 end
