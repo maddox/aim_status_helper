@@ -11,7 +11,6 @@ This is a new version from my old AimStatusHelper. This one uses the crappy AIM 
 
 I've loosened up how you use the helper now and made it a bit more dynamic. With these 3 available methods, you should be able to get away with whatever format and visualization you want now. The old way was pretty gross, I know.
 
-
 I've included some icons to get you started. The first are iChat inspired icons. The second come from the wonderful Silk icon collection by Mark James.
 
 
@@ -20,8 +19,6 @@ Thanks!
 Mark James
 mjames@gmail.com
 http://www.famfamfam.com/lab/icons/silk/
-
-
 
 
 Some Uses:
@@ -33,11 +30,3 @@ aim_status_icon 'maddox123456' => image tag with status_online.png as its path
 aim_to 'Jon Maddox', 'maddox123456' => a link that will pop open an AIM window to text me
 
 aim_to( aim_status_icon('maddox123456'), 'maddox123456') => the status icon corresponding to my status with a link to message me.
-
-
-
-
-
-
-
-
