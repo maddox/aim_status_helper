@@ -1,0 +1,43 @@
+AimStatusHelper2
+========================================
+Jon Maddox
+jon@jonsthoughtsoneverything.com
+http://www.simplisticcomplexity.com
+
+
+The aim status helper allows you to show if someone is online with the AOL Instant Message network. Included are a few helpers that, with the right combination, should give you everything you need.
+
+This is a new version from my old AimStatusHelper. This one uses the crappy AIM Web API, and parses the returned XML. This allows us to have more in depth statuses. Available now are Online, Offline, Idle, and Away. 
+
+I've loosened up how you use the helper now and made it a bit more dynamic. With these 3 available methods, you should be able to get away with whatever format and visualization you want now. The old way was pretty gross, I know.
+
+
+I've included some icons to get you started. The first are iChat inspired icons. The second come from the wonderful Silk icon collection by Mark James.
+
+
+Thanks!
+=================
+Mark James
+mjames@gmail.com
+http://www.famfamfam.com/lab/icons/silk/
+
+
+
+
+Some Uses:
+
+aim_status 'maddox123456' => "online"
+
+aim_status_icon 'maddox123456' => image tag with status_online.png as its path
+
+aim_to 'Jon Maddox', 'maddox123456' => a link that will pop open an AIM window to text me
+
+aim_to( aim_status_icon('maddox123456'), 'maddox123456') => the status icon corresponding to my status with a link to message me.
+
+
+
+
+
+
+
+
